@@ -14,7 +14,7 @@ function Homepage() {
           <h2 className="hero-motto">INNOVATE | INSPIRE | IMPACT</h2>
         </div>
         <div className="hero-section-image">
-          <img src={hero_gif}></img>
+          {/* <img src={hero_gif}></img> */}
         </div>
       </div>
       <div className="about-us">
