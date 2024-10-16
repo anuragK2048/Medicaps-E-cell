@@ -1,5 +1,5 @@
 import "./Homepage.css";
-import hero_gif from "/Users/anuragkodle/Desktop/E-cell/e_cell_homepage/src/assets/videos/hero.gif";
+import hero_gif from "../../assets/videos/hero.gif";
 import idea_img from "../../assets/images/idea.png";
 import Counter from "../../components/Counter/Counter";
 import MasonryLayout from "../../components/Masonry/MasonryLayout";
