@@ -1,0 +1,220 @@
+/*#51FF74*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  /* z-index: -5; */
+  width: 100%;
+  height: 100vw;
+  background-color: rgb(4, 3, 3);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+  width: 100%;
+  color: aliceblue;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section-heading {
+  margin-top: 18%;
+  margin-left: 10%;
+  /* margin-bottom: ; */
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 60vh;
+}
+
+.hero-section-heading h1 {
+  color: #51ff74;
+  font-size: 4.6vw;
+  /* border: 5px solid rgba(228, 207, 207, 0.27); */
+  backdrop-filter: blur(67.4px);
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  -webkit-text-stroke: 6px rgba(228, 207, 207, 0.27);
+}
+
+.college {
+  color: #fef4c9;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 64px;
+  font-family: "Metropolis";
+  font-style: normal;
+}
+
+.hero-motto {
+  color: #c5c4d2;
+  padding-top: 2%;
+  font-size: 1.8vw;
+}
+
+.hero-section-image {
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
+/* ABOUT US */
+.about-us-bg {
+  /* z-index: -1; */
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.863) 0%,
+      rgba(0, 0, 0, 0) 80%
+    ),
+    linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 20%),
+    url(/Users/anuragkodle/Desktop/E-cell/e_cell_homepage/src/assets/images/aboutus_bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); */
+}
+
+.about-us-heading {
+  color: #07d002;
+  margin-top: 80px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.about-us-main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.about-us-content {
+  padding: 0 13%;
+  color: white;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* OUR MOTTO */
+
+.our-motto {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.our-motto-heading {
+  color: #07d002;
+  margin-top: 90px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.motto-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  padding: 60px 15%;
+}
+
+.motto-image {
+  text-align: center;
+}
+
+.motto-box {
+  text-align: center;
+  border: 1.5px solid #07d002;
+  border-radius: 71px;
+  margin: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 60px;
+  color: white;
+}
+
+/* Counter */
+
+.stat-counters {
+  width: 100%;
+  height: 55vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.stat-model {
+  background-color: rgb(0, 0, 0);
+  width: 40%;
+  height: 55vh;
+}
+
+/*Masonry*/
+
+.initiatives {
+  background-color: black;
+  width: 100%;
+}
+
+.initiatives-title {
+  color: #07d002;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.initiatives-masonry {
+  width: 100%;
+  height: 90vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 4rem;
+  background-color: rgba(23, 26, 28, 0.8);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  scale: 1.1;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 2.5rem;
+}
+
+.navbar-links a {
+  font-size: large;
+  text-decoration: none;
+  color: #47c32c;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-family: "Metropolis";
+  font-style: normal;
+  line-height: 64px;
+}
+
+.navbar-links a:hover {
+  color: #007bff;
+}
+
+/* Add some padding to the body to prevent content from going under the navbar */
+/* body {
+  padding-top: 70px; /* Adjust this value based on your navbar height */
+/* } */
