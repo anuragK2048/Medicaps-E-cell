@@ -85,7 +85,7 @@
       rgba(0, 0, 0, 0) 80%
     ),
     linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 20%),
-    url(/Users/anuragkodle/Desktop/E-cell/e_cell_homepage/src/assets/images/aboutus_bg.png);
+    url(../../assets/images/aboutus_bg.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
