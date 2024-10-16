@@ -9,11 +9,7 @@
 .wrapper {
   /* z-index: -5; */
   width: 100%;
-<<<<<<< HEAD
   height: 1500px;
-=======
-  height: 100vh;
->>>>>>> 678df87275cc5a34e716b718b3bcb98aeefe7388
   background-color: rgb(4, 3, 3);
   display: flex;
   flex-direction: column;
