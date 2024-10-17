@@ -57,24 +57,27 @@ const AnimatedCounter = () => {
   };
 
   return (
-    <div
-      className={`animated-counter ${isVisible ? "visible" : ""}`}
-      ref={counterRef}
-    >
-      <div className="counter-item">
-        <div className="icon events-icon"></div>
-        <h3>{eventsCount}</h3>
-        <p>EVENTS ORGANISED</p>
-      </div>
-      <div className="counter-item">
-        <div className="icon participants-icon"></div>
-        <h3>{participantsCount}</h3>
-        <p>TOTAL PARTICIPANTS</p>
-      </div>
-      <div className="counter-item">
-        <div className="icon entrepreneurs-icon"></div>
-        <h3>{entrepreneursCount}</h3>
-        <p>ENTREPRENEURS SUPPORTED</p>
+    <div className="stat-counters">
+      {/* <div className="stat-model"></div> */}
+      <div
+        className={`animated-counter ${isVisible ? "visible" : ""}`}
+        ref={counterRef}
+      >
+        <div className="counter-item">
+          <div className="icon events-icon"></div>
+          <h3>{eventsCount}</h3>
+          <p>EVENTS ORGANISED</p>
+        </div>
+        <div className="counter-item">
+          <div className="icon participants-icon"></div>
+          <h3>{participantsCount}</h3>
+          <p>TOTAL PARTICIPANTS</p>
+        </div>
+        <div className="counter-item">
+          <div className="icon entrepreneurs-icon"></div>
+          <h3>{entrepreneursCount}</h3>
+          <p>ENTREPRENEURS SUPPORTED</p>
+        </div>
       </div>
     </div>
   );

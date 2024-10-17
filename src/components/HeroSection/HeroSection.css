@@ -1,0 +1,74 @@
+.hero-section {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 900px;
+  width: 100%;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section-heading {
+  padding-top: 50px;
+  /* margin-bottom: ; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 900px;
+}
+
+.hero-section-heading h1 {
+  /* Creates a horizontal gradient from white to green to white */
+  background: linear-gradient(to right, #47d002, #51ff74, #a8df75, #47d002);
+
+  /* Clips the gradient to only show within the text */
+  -webkit-background-clip: text;
+
+  /* Makes the text itself transparent so we can see the gradient */
+  color: transparent;
+
+  /* Makes the background gradient wider than the element */
+  background-size: 200% auto;
+
+  /* Animates the gradient position */
+  animation: shine 7s linear infinite;
+  /* color: #51ff74; */
+  font-size: 4.6vw;
+  backdrop-filter: blur(67.4px);
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  /* -webkit-text-stroke: 6px rgba(228, 207, 207, 0.27); */
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.college {
+  color: #fef4c9;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 64px;
+  font-family: "Metropolis";
+  font-style: normal;
+}
+
+.hero-motto {
+  color: #c5c4d2;
+  /* padding-top: 2%; */
+  font-size: 1.8vw;
+}
+
+.hero-section-image {
+  padding-top: 10%;
+  padding-right: 10%;
+}
