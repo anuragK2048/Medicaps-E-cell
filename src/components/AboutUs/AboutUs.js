@@ -3,7 +3,7 @@ import "./AboutUs.css";
 function AboutUs() {
   return (
     <div className="about-us">
-      <div className="about-us-bg"></div>
+      {/* <div className="about-us-bg"></div> */}
       <div className="about-us-main">
         <h2 className="about-us-heading">About Us</h2>
         <p className="about-us-content">
