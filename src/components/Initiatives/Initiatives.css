@@ -26,3 +26,9 @@
   display: flex;
   justify-content: center;
 }
+
+@media (width<=700px) {
+  .initiatives {
+    height: 1300px;
+  }
+}
