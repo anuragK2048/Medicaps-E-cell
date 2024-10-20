@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Medicaps-E-cell/static/css/main.02cc7830.css",
+    "main.js": "/Medicaps-E-cell/static/js/main.1dad0876.js",
+    "static/js/453.1269c4a8.chunk.js": "/Medicaps-E-cell/static/js/453.1269c4a8.chunk.js",
+    "static/media/BG2.jpg": "/Medicaps-E-cell/static/media/BG2.04d3f456934169440927.jpg",
+    "static/media/BG3.jpg": "/Medicaps-E-cell/static/media/BG3.092d34947f5f787b914d.jpg",
+    "static/media/BG4.jpg": "/Medicaps-E-cell/static/media/BG4.82f42e0d405225cb0c30.jpg",
+    "static/media/BG1.jpg": "/Medicaps-E-cell/static/media/BG1.28cd2ecbc3fb3a12f650.jpg",
+    "static/media/aboutus_bg.png": "/Medicaps-E-cell/static/media/aboutus_bg.ee8b97dc92a41168282e.png",
+    "static/media/BG6.jpg": "/Medicaps-E-cell/static/media/BG6.db01e173648622206153.jpg",
+    "static/media/Business Quiz.png": "/Medicaps-E-cell/static/media/Business Quiz.e5f05d612a5c1e4b09d6.png",
+    "static/media/Ideathon.png": "/Medicaps-E-cell/static/media/Ideathon.7d25e881c4fe2c5d9b78.png",
+    "static/media/hero.gif": "/Medicaps-E-cell/static/media/hero.1dbc14f246785f458f91.gif",
+    "static/media/Zenith Shark Tank.png": "/Medicaps-E-cell/static/media/Zenith Shark Tank.6544aa002860ab83712e.png",
+    "static/media/e_summit.png": "/Medicaps-E-cell/static/media/e_summit.6beeb26361b726c120a7.png",
+    "static/media/idea.png": "/Medicaps-E-cell/static/media/idea.b6a0c336b2eac5cd3c8a.png",
+    "index.html": "/Medicaps-E-cell/index.html",
+    "main.02cc7830.css.map": "/Medicaps-E-cell/static/css/main.02cc7830.css.map",
+    "main.1dad0876.js.map": "/Medicaps-E-cell/static/js/main.1dad0876.js.map",
+    "453.1269c4a8.chunk.js.map": "/Medicaps-E-cell/static/js/453.1269c4a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02cc7830.css",
+    "static/js/main.1dad0876.js"
+  ]
+}
