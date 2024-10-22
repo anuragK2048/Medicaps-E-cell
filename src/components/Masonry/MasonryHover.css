@@ -1,0 +1,166 @@
+.initiative-display-container {
+  position: relative;
+  z-index: 1;
+  /* padding: 10px; */
+  background: rgba(0, 0, 0, 0.3);
+  /* backdrop-filter: blur(10px); */
+}
+
+.initiative-display-title {
+  text-align: center;
+  color: #fff3ca;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5),
+    -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
+  animation: glow 2s ease-in-out infinite;
+  font-size: 2.4vh;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5),
+      -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5),
+      0 0 5px rgba(255, 243, 202, 0.3);
+  }
+  50% {
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5),
+      -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5),
+      0 0 15px rgba(255, 243, 202, 0.5);
+  }
+}
+
+@media (width<=450px) {
+  .initiative-display-title {
+    font-size: 30px;
+  }
+}
+
+/* Grid Layout */
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "img-1 img-2 img-3 img-3"
+    "img-1 img-4 img-5 img-6"
+    "img-7 img-7 img-8 img-6";
+  grid-gap: 1.5rem;
+  padding: 15px;
+  width: 1200px;
+  max-width: 1200px;
+  min-width: 300px;
+}
+
+/* Base styles for grid items */
+.wrapper2 > div {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* Individual grid items with explicit background images */
+.img-1 {
+  grid-area: img-1;
+  min-height: 31.5rem;
+  background-image: url("../../assets/images/Masonry/BG1.jpg");
+}
+
+.img-2 {
+  grid-area: img-2;
+  min-height: 15rem;
+  background-image: url("../../assets/images/Masonry/BG2.jpg");
+}
+
+.img-3 {
+  grid-area: img-3;
+  min-height: 15rem;
+  background-image: url("../../assets/images/Masonry/BG3.jpg");
+}
+
+.img-4 {
+  grid-area: img-4;
+  min-height: 15rem;
+  background-image: url("../../assets/images/Masonry/BG4.jpg");
+}
+
+.img-5 {
+  grid-area: img-5;
+  min-height: 15rem;
+  background-image: url("../../assets/images/Masonry/BG5.jpg");
+}
+
+.img-6 {
+  grid-area: img-6;
+  min-height: 31.5rem;
+  background-image: url("../../assets/images/Masonry/BG6.jpg");
+}
+
+.img-7 {
+  grid-area: img-7;
+  min-height: 15rem;
+  background-image: url("../../assets/images/Masonry/BG7.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.img-8 {
+  grid-area: img-8;
+  min-height: 15rem;
+  background-image: url("../../assets/images/Masonry/BG8.jpg");
+}
+
+/* Hover Module Styles */
+.hover-module {
+  width: 550px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .wrapper2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "img-1 img-2"
+      "img-1 img-3"
+      "img-4 img-5"
+      "img-6 img-7"
+      "img-6 img-8";
+    grid-gap: 1rem;
+    padding: 10px;
+  }
+
+  .hover-module {
+    width: 600px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 350px) {
+  .wrapper2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "img-1"
+      "img-2"
+      "img-3"
+      "img-4"
+      "img-5"
+      "img-6"
+      "img-7"
+      "img-8";
+    grid-gap: 1rem;
+    padding: 10px;
+  }
+
+  .hover-module {
+    width: 250px;
+    height: 250px;
+  }
+}

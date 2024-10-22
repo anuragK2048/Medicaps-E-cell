@@ -1,0 +1,56 @@
+.hover-module-content h1 {
+  font-family: "Metropolis";
+  color: #fcde70;
+}
+
+.hover-module-content p {
+  font-family: "Metropolis";
+  font-size: 2vh;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+/* Container for the hover module */
+.hover-module {
+  z-index: 9999;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* The background with grayscale, opacity, and gradient */
+.hover-module-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(80%); /* Apply grayscale effect */
+  opacity: 0.9; /* Reduce opacity of the background image */
+  z-index: -1; /* Place behind the content */
+}
+
+/* Content that stays above the background */
+.hover-module-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1; /* Ensure content stays on top of background */
+  color: white;
+  padding: 20px;
+}
+
+@media (width<=450px) {
+  .hover-module-content p {
+    font-size: 3vh;
+  }
+  .hover-module-content h1 {
+    font-size: 6vh;
+  }
+}

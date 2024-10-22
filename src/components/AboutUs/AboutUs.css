@@ -60,7 +60,6 @@
   height: 60vh;
   align-items: center;
   justify-content: space-evenly;
-  gap: 20px;
 }
 
 .about-us-content {
@@ -75,4 +74,5 @@
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-bottom: 20px;
 }

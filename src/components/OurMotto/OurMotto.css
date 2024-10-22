@@ -30,6 +30,10 @@
 .motto-image {
   text-align: center;
 }
+.motto-image img {
+  height: 90px;
+  text-align: center;
+}
 
 .motto-box {
   text-align: center;

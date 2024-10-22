@@ -1,12 +1,12 @@
 import "./Initiatives.css";
-import MasonryLayout from "../Masonry/MasonryLayout";
+import MasonryHover from "../Masonry/MasonryHover";
 
 function Initiatives() {
   return (
     <div className="initiatives">
       <div className="initiatives-title">Initiatives</div>
       <div className="initiatives-masonry">
-        <MasonryLayout />
+        <MasonryHover />
       </div>
     </div>
   );

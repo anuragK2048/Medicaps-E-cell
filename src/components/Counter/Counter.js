@@ -38,9 +38,9 @@ const AnimatedCounter = () => {
     const steps = 60;
     const stepTime = duration / steps;
 
-    const eventsTarget = 50;
+    const eventsTarget = 40;
     const participantsTarget = 5000;
-    const entrepreneursTarget = 200;
+    const entrepreneursTarget = 150;
 
     let step = 0;
 
@@ -65,17 +65,17 @@ const AnimatedCounter = () => {
       >
         <div className="counter-item">
           <div className="icon events-icon"></div>
-          <h3>{eventsCount}</h3>
+          <h3>{eventsCount}+</h3>
           <p>EVENTS ORGANISED</p>
         </div>
         <div className="counter-item">
           <div className="icon participants-icon"></div>
-          <h3>{participantsCount}</h3>
+          <h3>{participantsCount}+</h3>
           <p>TOTAL PARTICIPANTS</p>
         </div>
         <div className="counter-item">
           <div className="icon entrepreneurs-icon"></div>
-          <h3>{entrepreneursCount}</h3>
+          <h3>{entrepreneursCount}+</h3>
           <p>ENTREPRENEURS SUPPORTED</p>
         </div>
       </div>
