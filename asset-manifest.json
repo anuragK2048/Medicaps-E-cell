@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Medicaps-E-cell/static/css/main.02cc7830.css",
-    "main.js": "/Medicaps-E-cell/static/js/main.1dad0876.js",
+    "main.css": "/Medicaps-E-cell/static/css/main.a06872d9.css",
+    "main.js": "/Medicaps-E-cell/static/js/main.edb533d2.js",
     "static/js/453.1269c4a8.chunk.js": "/Medicaps-E-cell/static/js/453.1269c4a8.chunk.js",
+    "static/media/BG3.jpg": "/Medicaps-E-cell/static/media/BG3.5ea5c414399d263b2f3c.jpg",
     "static/media/BG2.jpg": "/Medicaps-E-cell/static/media/BG2.04d3f456934169440927.jpg",
-    "static/media/BG3.jpg": "/Medicaps-E-cell/static/media/BG3.092d34947f5f787b914d.jpg",
-    "static/media/BG4.jpg": "/Medicaps-E-cell/static/media/BG4.82f42e0d405225cb0c30.jpg",
+    "static/media/BG5.jpg": "/Medicaps-E-cell/static/media/BG5.092d34947f5f787b914d.jpg",
     "static/media/BG1.jpg": "/Medicaps-E-cell/static/media/BG1.28cd2ecbc3fb3a12f650.jpg",
+    "static/media/BG4.jpg": "/Medicaps-E-cell/static/media/BG4.fbf510488e8228e59e67.jpg",
     "static/media/aboutus_bg.png": "/Medicaps-E-cell/static/media/aboutus_bg.ee8b97dc92a41168282e.png",
-    "static/media/BG6.jpg": "/Medicaps-E-cell/static/media/BG6.db01e173648622206153.jpg",
-    "static/media/Business Quiz.png": "/Medicaps-E-cell/static/media/Business Quiz.e5f05d612a5c1e4b09d6.png",
-    "static/media/Ideathon.png": "/Medicaps-E-cell/static/media/Ideathon.7d25e881c4fe2c5d9b78.png",
-    "static/media/hero.gif": "/Medicaps-E-cell/static/media/hero.1dbc14f246785f458f91.gif",
-    "static/media/Zenith Shark Tank.png": "/Medicaps-E-cell/static/media/Zenith Shark Tank.6544aa002860ab83712e.png",
+    "static/media/BG8.jpg": "/Medicaps-E-cell/static/media/BG8.2607802dded1647f495a.jpg",
+    "static/media/BG7.jpg": "/Medicaps-E-cell/static/media/BG7.26d2937fba21fe42d0be.jpg",
+    "static/media/BG6.jpg": "/Medicaps-E-cell/static/media/BG6.fac2ebfd476c3c851bf9.jpg",
     "static/media/e_summit.png": "/Medicaps-E-cell/static/media/e_summit.6beeb26361b726c120a7.png",
-    "static/media/idea.png": "/Medicaps-E-cell/static/media/idea.b6a0c336b2eac5cd3c8a.png",
+    "static/media/innovate-dna-eco.svg": "/Medicaps-E-cell/static/media/innovate-dna-eco.eef9d20f2ce75c8b18320365781f734f.svg",
+    "static/media/inspire-logo.svg": "/Medicaps-E-cell/static/media/inspire-logo.eac344f63b3030609740b2587c1ac18f.svg",
+    "static/media/impact-logo.svg": "/Medicaps-E-cell/static/media/impact-logo.7e01a74c88762a8436641197d70c8406.svg",
     "index.html": "/Medicaps-E-cell/index.html",
-    "main.02cc7830.css.map": "/Medicaps-E-cell/static/css/main.02cc7830.css.map",
-    "main.1dad0876.js.map": "/Medicaps-E-cell/static/js/main.1dad0876.js.map",
+    "main.a06872d9.css.map": "/Medicaps-E-cell/static/css/main.a06872d9.css.map",
+    "main.edb533d2.js.map": "/Medicaps-E-cell/static/js/main.edb533d2.js.map",
     "453.1269c4a8.chunk.js.map": "/Medicaps-E-cell/static/js/453.1269c4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02cc7830.css",
-    "static/js/main.1dad0876.js"
+    "static/css/main.a06872d9.css",
+    "static/js/main.edb533d2.js"
   ]
 }
